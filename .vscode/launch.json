@@ -2,20 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "TrainingCluster",
-            "type": "ecl",
-            "request": "launch",
-            "protocol": "https",
-            "serverAddress": "eclwatch.br-training-prod.azure.lnrsg.io",
-            "port": 18010,
-            "targetCluster": "thor",
-            "rejectUnauthorized": false,
-            "resultLimit": 100,
-            "timeoutSecs": 60,
-            "user": "user",
-            "password": ""
-        },
-        {
             "name": "localhost",
             "type": "ecl",
             "request": "launch",
@@ -28,7 +14,21 @@
             "timeoutSecs": 60,
             "user": "xyz_local",
             "password": ""
-        }        
+        },
+        {
+            "name": "TrainingCluster",
+            "type": "ecl",
+            "request": "launch",
+            "protocol": "https",
+            "serverAddress": "eclwatch.br-training-prod.azure.lnrsg.io",
+            "port": 18010,
+            "targetCluster": "thor",
+            "rejectUnauthorized": false,
+            "resultLimit": 100,
+            "timeoutSecs": 60,
+            "user": "",
+            "password": ""
+        }
     ]
 }
 
