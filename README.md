@@ -8,4 +8,5 @@ https://gitpod.io/#https://github.com/<UR_GITHUT_USERNAME>/CursoDifusaoUFPA2025
 
 **Note I**: Alternatively, you can use the ECL IDE:
 1. Download and install the latest ECL IDE version available from https://hpccsystems.com/download#HPCC-Platform. For detailed information on how to setup the ECL IDE, please watch this instructional video: https://www.youtube.com/watch?v=TT7rCcyWTAo
+  
 **Note II**: The '*persons*' and '*accounts.csv*' datasets are already sprayed and available in the training cluster utilized during the workshop.
