@@ -12,7 +12,7 @@ OUTPUT(Persons,{ID,LastName,FirstName});
 //
 OUTPUT(Accounts,{ReportDate,HighCredit,Balance});
 //
-OUTPUT(Persons,{ID,StreetAddress,City,State,ZipCode},NAMED('Address_Info'));
+OUTPUT(Persons,{ID,StreetAddress,City,State,ZipCode}, NAMED('Address_Info'));
 //
-OUTPUT(Accounts,{AccountNumber,LastActivityDate,Balance},NAMED('Acct_Activity'));
+OUTPUT(Accounts,{AccountNumber,LastActivityDate,Balance}, NAMED('Acct_Activity'));
 //
