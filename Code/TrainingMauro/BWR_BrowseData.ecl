@@ -1,7 +1,7 @@
 IMPORT $;
 //
-$.YoungMaleFloridaPersons;
-COUNT($.YoungMaleFloridaPersons);   //  462
+// $.YoungMaleFloridaPersons;
+// COUNT($.YoungMaleFloridaPersons);   //  462
 //
 //
 $.UID_Persons;       // PERSIST...

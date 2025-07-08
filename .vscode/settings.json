@@ -1,7 +1,5 @@
 {
     "ecl.forceProxySupport": true,
     "ecl.launchConfiguration": "TrainingCluster",
-    "ecl.targetCluster": {
-        "TrainingCluster": "thor"
-    }
+    "ecl.targetCluster": {}
 }

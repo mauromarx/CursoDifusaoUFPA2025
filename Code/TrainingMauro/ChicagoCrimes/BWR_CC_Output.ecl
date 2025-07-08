@@ -8,11 +8,11 @@ IMPORT $, DataPatterns;
 //
 //
 CC_raw := $.ModChicagoCrimes_raw.FileCC;
-CC_optimized := $.ModChicagoCrimes_optimized.FileCC;
+CC_opt := $.ModChicagoCrimes_optimized.FileCC;
 //
 // Tarefa 2
 OUTPUT(CC_raw, NAMED('Raw_data'));
-OUTPUT(CC_optimized, NAMED('Optimized_data'));
+OUTPUT(CC_opt, NAMED('Opt_data'));
 //
 // Tarefa 3
 DataPatterns.Profile(CC_raw);
