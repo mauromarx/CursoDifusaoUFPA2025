@@ -20,7 +20,7 @@ Layout_New Reformatter(ChicagoCrimes.LayoutCC L, UNSIGNED cnt):=TRANSFORM
 						  IF(L.Date[12..13]='12',12,(UNSIGNED1)L.Date[12..13]+12),
 						  IF(L.Date[12..13]='12',0, (UNSIGNED1)L.Date[12..13])),
 						   (UNSIGNED1)L.Date[15..16],
-					         // (UNSIGNED1)L.Date[18..19]),6,1);
+					        //  (UNSIGNED1)L.Date[18..19]),6,1);
 						   (UNSIGNED1)L.Date[18..19]);
 		SELF		:=L;
 END;
