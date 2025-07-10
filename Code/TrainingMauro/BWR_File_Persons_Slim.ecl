@@ -9,7 +9,7 @@ SlimRecs := JOIN($.STD_Persons.File, $.File_LookupCSZ.File,
 									 LEFT.zipcode = RIGHT.zipcode AND
 									 LEFT.city	  = RIGHT.city AND
 									 LEFT.state	  = RIGHT.state,
-									 Slimdown(LEFT,RIGHT),LEFT OUTER, LOOKUP);
+									 Slimdown(LEFT,RIGHT), LEFT OUTER, LOOKUP);
 //
 OUTPUT(SlimRecs,,'~CLASS::MDM::OUT::Persons_Slim', OVERWRITE);
 //
