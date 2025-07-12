@@ -8,6 +8,7 @@ EXPORT File_Persons_Slim := MODULE
 		UNSIGNED4 CSZ_ID;
 	END;
 	EXPORT File := DATASET('~CLASS::MDM::OUT::Persons_Slim', Layout, FLAT);
+// Aula 06
 	EXPORT IDX_LName_Fname := INDEX(File,{LastName,FirstName},{File},'~CLASS::MDM::KEY::Lname_Fname');
 END;
 //

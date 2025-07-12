@@ -7,8 +7,8 @@ EXPORT File_LookupCSZ := MODULE
 		STRING2 	State;
 		UNSIGNED3 	ZipCode;
 	END;
-	SHARED Filename := '~CLASS::MDM::OUT::LookupCSZ';
-	EXPORT File 	:= DATASET(Filename, Layout, FLAT);
+	EXPORT File 	:= DATASET('~CLASS::MDM::OUT::LookupCSZ', Layout, FLAT);
+// Aula 06
 	EXPORT IDX_CSZ 	:= INDEX(File,{CSZ_ID},{File},'~CLASS::MDM::KEY::Lookup_CSZ');
 END;
 //
